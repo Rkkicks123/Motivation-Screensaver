@@ -6,3 +6,7 @@ html{
   background-image: url('images/51364.jpeg');
    background-size: 95%;
 }
+
+body {
+  overflow: hidden;
+}
