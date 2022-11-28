@@ -1,6 +1,6 @@
 //Imports:
 
-import {drawRect,drawRect2,drawRect3,drawRect4,drawRect5,drawRect6} from './pictures'
+import {drawRect,drawRect2,drawRect3} from './pictures'
 
 
 
@@ -17,7 +17,7 @@ let x= 50;
   
 let y= 0;
 
-let axis= 1200;
+let axis= 1000;
   
 let height= 0;
 
@@ -85,11 +85,11 @@ export function animate (){
   
   //Speed:
   x=x+0
-  y=y+4
+  y=y+1
   axis=axis+0
-  height=height+5
+  height=height+1
   ax=ax+0
-  ht=ht+6
+  ht=ht+2
   a=a+0
   h=h+7
   b=b+0
@@ -103,10 +103,7 @@ export function animate (){
   //ctx.rotate(Math.PI*42/180)
   drawRect(x,y);
   drawRect2(axis,height);
-  drawRect3(ax,ht);
-  drawRect4(a,h);
-  drawRect5(b,c);
-  drawRect6(d,e);
+  drawRect3(ax,ht)
   window.requestAnimationFrame(animate)
   
 
