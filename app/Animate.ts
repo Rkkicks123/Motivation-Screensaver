@@ -1,6 +1,6 @@
 //Imports:
 
-import {drawRect,drawRect2,drawRect3} from './pictures'
+import {drawRect,drawRect2,drawRect3,} from './pictures'
 
 
 
@@ -25,9 +25,9 @@ let ax= 600;
   
 let ht= 0;
 
-let a= 1000;
+let a= 50;
   
-let h= 0;
+let h= 50;
 
 let b = 200;
 
@@ -91,7 +91,7 @@ export function animate (){
   ax=ax+0
   ht=ht+2
   a=a+0
-  h=h+7
+  h=h+1
   b=b+0
   c=c+5
   d=d+0
@@ -103,7 +103,7 @@ export function animate (){
   //ctx.rotate(Math.PI*42/180)
   drawRect(x,y);
   drawRect2(axis,height);
-  drawRect3(ax,ht)
+  drawRect3(ax,ht);
   window.requestAnimationFrame(animate)
   
 
