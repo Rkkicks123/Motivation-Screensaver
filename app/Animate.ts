@@ -85,11 +85,11 @@ export function animate (){
   
   //Speed:
   x=x+0
-  y=y+1
+  y=y+0.3
   axis=axis+0
-  height=height+1
+  height=height+0.3
   ax=ax+0
-  ht=ht+2
+  ht=ht+0.5
   a=a+0
   h=h+1
   b=b+0
